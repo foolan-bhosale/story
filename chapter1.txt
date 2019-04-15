@@ -1,0 +1,5 @@
+Changing Your Committer Name & Email Globally
+You can run the "git config" command with the --global flag; this will make sure all of your future commits use the given information:
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email "john@doe.org"
